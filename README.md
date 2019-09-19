@@ -22,6 +22,21 @@ Generally, there are two different kinds of people who need the interface offere
 
 With the different experiences and goals of these two kinds of people, and with the differences between different kinds of computer hardware, the task of the operating system is very challenging. However its actions are not beyond our understanding if we know where to look. These tutorials will teach you about what an operating system does and why.
 
+### Scheduling and Resource Management
+
+In order for Users and Developers to accomplish their goals (hopefully that means Users happily using programs written by happy Developers) the operating system must manage all of the different programs that the User may want to run, and give each program a fair share of access to the computer's hardware.
+
+Since the computer has only a finite amount of hardware to do all the work with, any program selfishly hogging the hardware will cause other programs to struggle. So the operating system must manage the hardware - the computing resources - and share it between various programs, including itself.
+
+There are two general strategies that the operating system uses to do this:
+
+1. Resource allocation
+2. Scheduling
+
+Resource allocation just means giving different programs different chunks of the available resources, such as giving one program half of the computer's memory and another program the other half.
+
+Scheduling just means having programs take turns using available resources. This is how operating systems usually share the computer's central processing unit (CPU), though it may not feel like it, because modern computers switch between programs really quickly (around one hundred times a second!).
+
 ### GNU/Linux
 
 For all of my computers, I use some version of an operating system called "Gnu/Linux." Usually we say "Linux" (pronounced like *lynn-ucks*) for short.
